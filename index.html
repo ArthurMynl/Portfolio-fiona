@@ -1,0 +1,94 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiona Warner</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="/index.html" class="nav-link">Accueil</a></li>
+            <li class="nav-item"><a href="./projets.html" class="nav-link">Projets</a></li>
+            <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section class="about-me">
+        <img class="profile-picture" src="assets/profile.jpg">
+        <h1 class="name">Fiona Warner</h1>
+        <p class="description">” Actuellement étudiante en 4ème année d'école de design, je souhaite me spécialiser dans
+            le design du luxe. ”</p>
+    </section>
+
+    <section class="studies">
+        <h2 class="title">Mon cursus scolaire</h2>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+            <div class="mySlides fade">
+                <img class="image" src="assets/logo-colombus.jpeg">
+                <div class="text">Colombus North High School</div>
+                <div class="date">(2016-2017)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img class="image" src="assets/logo-sacre-coeur.png">
+                <div class="text">Lycée Sacré-Coeur</div>
+                <div class="date">(2017-2019)</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img class="image" src="assets/logo-ecole-design.png">
+                <div class="text">L'École de Design </div>
+                <div class="date">(2019-2024)</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <br>
+
+        <!-- The dots/circles -->
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+
+    <footer class="footer-basic">
+        <div class="social">
+            <a href="https://www.instagram.com/design.fw/" target="_blank" rel="noreferrer noopener"><i
+                    class="icon ion-social-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/fiona-warner-184141206" target="_blank" rel="noreferrer noopener"><i
+                    class="icon ion-social-linkedin"></i></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="./index.html">Home</a></li>
+            <li class="list-inline-item"><a href="./projets.html">Projets</a></li>
+            <li class="list-inline-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+        <p class="copyright">Fiona Warner © 2022</p>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/index.js"></script>
+</body>
