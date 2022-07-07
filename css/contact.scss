@@ -1,5 +1,6 @@
-$couleur-primaire : #73deed;
-$couleur-secondaire : #63e563;
+$couleur-primaire : #ff5733;
+$couleur-secondaire : #900c3e;
+$couleur-ternaire : #571845;
 
 
 * {
@@ -11,13 +12,13 @@ $couleur-secondaire : #63e563;
 
 
 .contact {
-    padding: 100px 10%;
-    margin-top: 70px;
+    padding: 130px 10% 0 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     gap: 30%;
+    background-color: $couleur-primaire;
 
     .contact-image {
         display: flex;
@@ -84,6 +85,20 @@ $couleur-secondaire : #63e563;
             }
         }
     }
+}
+
+.spacer {
+    aspect-ratio: 960/200;
+    width : 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding : 0;
+    margin: 0;
+}
+
+.layer2 {
+    background-image: url("../assets/svg/layer3.svg");
 }
 
 

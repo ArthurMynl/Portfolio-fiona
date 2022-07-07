@@ -12,6 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #ff5733;
 }
 .about-me .profile-picture {
   border-radius: 50%;
@@ -25,9 +26,28 @@
   font-size: 1rem;
 }
 
+.spacer {
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.layer1 {
+  background-image: url("../assets/svg/layer1.svg");
+}
+
+.layer2 {
+  background-image: url("../assets/svg/layer2.svg");
+}
+
 .studies {
-  margin-top: 50px;
-  padding: 0px 50px 100px 50px;
+  padding: 100px 10% 0 10%;
+  background-color: #571845;
+  color: white;
   /* The dots/bullets/indicators */
 }
 .studies .title {
@@ -60,6 +80,7 @@
   padding: 8px 12px;
   width: 100%;
   text-align: center;
+  color: white;
 }
 .studies .slideshow-container .mySlides .date {
   color: black;
@@ -67,13 +88,14 @@
   padding: 8px 12px;
   width: 100%;
   text-align: center;
+  color: white;
 }
 .studies .slideshow-container .prev,
 .studies .slideshow-container .next {
   cursor: pointer;
   width: auto;
   padding: 16px;
-  color: #73deed;
+  color: #ff5733;
   font-weight: bold;
   font-size: 18px;
   -webkit-user-select: none;
@@ -111,12 +133,12 @@
   height: 10px;
   width: 10px;
   margin: 0 5px;
-  background-color: #bbb;
+  background-color: #717171;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 .studies .dots .active,
 .studies .dots .dot:hover {
-  background-color: #717171;
+  background-color: #bbb;
 }/*# sourceMappingURL=index.css.map */

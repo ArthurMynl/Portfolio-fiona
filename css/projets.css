@@ -7,9 +7,11 @@
 
 .projets {
   margin-top: 30px;
-  padding: 100px 50px;
+  padding: 100px 10% 0 10%;
   display: flex;
   flex-direction: column;
+  background-color: #571845;
+  color: white;
   /* The dots/bullets/indicators */
 }
 .projets .title {
@@ -54,6 +56,7 @@
   padding: 8px 12px;
   width: 100%;
   text-align: center;
+  color: white;
 }
 .projets .projet .mySlides1 .description,
 .projets .projet .mySlides2 .description,
@@ -64,13 +67,14 @@
   padding: 8px 12px;
   width: 100%;
   text-align: center;
+  color: white;
 }
 .projets .projet .prev,
 .projets .projet .next {
   cursor: pointer;
   width: auto;
   padding: 16px;
-  color: #73deed;
+  color: #ff5733;
   font-weight: bold;
   font-size: 18px;
   -webkit-user-select: none;
@@ -104,17 +108,37 @@
   text-align: center;
   margin-bottom: 50px;
 }
-.projets .dots .dot {
+.projets .dots .dots1,
+.projets .dots .dots2,
+.projets .dots .dots3,
+.projets .dots .dots4 {
   cursor: pointer;
   height: 10px;
   width: 10px;
   margin: 0 5px;
-  background-color: #bbb;
+  background-color: #717171;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 .projets .dots .active,
-.projets .dots .dot:hover {
-  background-color: #717171;
+.projets .dots .dot1:hover,
+.projets .dots .dot2:hover,
+.projets .dots .dot3:hover,
+.projets .dots .dot4:hover {
+  background-color: #bbb;
+}
+
+.spacer {
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.layer2 {
+  background-image: url("../assets/svg/layer2.svg");
 }/*# sourceMappingURL=projets.css.map */
